@@ -3,6 +3,6 @@ export type CsvToObjArrayOptions<T> = {
   separator?: string;
   validators?: {
     input?: (input: string) => boolean;
-    output?: (output: { [k: string]: string; }[]) => boolean;
-  }
-}
+    output?: (output: { [k: string]: string }[]) => boolean;
+  };
+};

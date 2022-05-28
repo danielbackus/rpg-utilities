@@ -1,4 +1,8 @@
-import { CsvToObjArrayOptions, RollableTable, RollableTableItem } from "@src/types";
+import {
+  CsvToObjArrayOptions,
+  RollableTable,
+  RollableTableItem,
+} from "@src/types";
 import { file } from "@src/utils";
 
 export const csvToRollableTable = (

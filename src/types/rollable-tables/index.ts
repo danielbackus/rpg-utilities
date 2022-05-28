@@ -10,8 +10,8 @@ export type RollableTable = {
   name: string;
   roll: string; // a FoundryVTT roll expression
   items: RollableTableItem[];
-}
+};
 
 export type RollableTables = {
-  [k in number]: RollableTable
-}
+  [k in number]: RollableTable;
+};
