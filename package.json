@@ -1,0 +1,16 @@
+{
+  "name": "rpg-utilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU GPL V3",
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "vitest": "^0.12.9"
+  }
+}
