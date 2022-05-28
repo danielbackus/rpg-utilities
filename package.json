@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GNU GPL V3",
   "devDependencies": {
     "prettier": "^2.6.2",
     "vitest": "^0.12.9"
