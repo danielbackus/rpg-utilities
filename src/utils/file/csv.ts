@@ -4,7 +4,7 @@ export const CSV_ERRORS = {
   INCONSISTENT_COLUMNS: "Number of columns is inconsistent across rows."
 } as const;
 
-export const csvToObjArray = <T>(
+export const csvToObjArray = <T extends { [k: string]: string; }>(
   csv: string,
   options?: CsvToObjArrayOptions<T>
 ): T[] => {
@@ -31,5 +31,5 @@ export const csvToObjArray = <T>(
     );
   });
   options?.validators?.output?.(output);
-  return output as unknown as T[];
+  return output as T[];
 };
